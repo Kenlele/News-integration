@@ -21,3 +21,4 @@
 	•	爬蟲與 API 整合：根據新聞來源不同，使用適當的 API 或爬蟲技術來收集數據。
 	•	AI 客服：使用 OpenAI API 或 Google Dialogflow 來提供 AI 互動功能。
 	•	身份驗證：使用 OAuth 或 JWT 實現 Google/Facebook 登入。
+
