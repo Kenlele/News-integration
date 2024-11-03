@@ -22,3 +22,4 @@
 	•	AI 客服：使用 OpenAI API 或 Google Dialogflow 來提供 AI 互動功能。
 	•	身份驗證：使用 OAuth 或 JWT 實現 Google/Facebook 登入。
 
+****練習project用**** ken
