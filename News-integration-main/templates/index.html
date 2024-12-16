@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-TW">
+<html lang="zh-Hant">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,26 +8,32 @@
 </head>
 <body>
     <header>
-        <h1>跨報社新聞整合平台</h1>
+        <h1>新聞整合平台</h1>
     </header>
 
     <main>
-        <h2>選擇新聞來源</h2>
-        <div id="news-container">
-            <section id="sanli-news" class="news-block">
-                <h3>三立新聞</h3>
-                <div class="news-content"></div>
-            </section>
-            <section id="ctv-news" class="news-block">
-                <h3>中視新聞</h3>
-                <div class="news-content"></div>
-            </section>
-            <section id="ftv-news" class="news-block">
-                <h3>民視新聞</h3>
-                <div class="news-content"></div>
-            </section>
-        </div>
+        <!-- 三立新聞 -->
+        <section>
+            <h2>三立新聞</h2>
+            <div id="sanli-news" class="news-content"></div>
+        </section>
+
+        <!-- 中視新聞 -->
+        <section>
+            <h2>中視新聞</h2>
+            <div id="ctv-news" class="news-content"></div>
+        </section>
+
+        <!-- 民視新聞 -->
+        <section>
+            <h2>民視新聞</h2>
+            <div id="ftv-news" class="news-content"></div>
+        </section>
     </main>
+
+    <footer>
+        <p>&copy; 2024 新聞整合平台</p>
+    </footer>
 
     <script src="{{ url_for('static', filename='js/web.js') }}"></script>
 </body>
