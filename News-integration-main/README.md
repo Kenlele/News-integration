@@ -17,7 +17,7 @@
 
 	•	前端：使用 React (或 Vue.js) 搭配 CSS 框架（如 Tailwind CSS）來構建頁面。
 	•	後端：使用 Node.js + Express 來處理 API 請求，並負責新聞數據的整合。
-	•	資料庫：MongoDB 或 MySQL 用於儲存新聞數據。
+	•	資料庫：MongoDB 
 	•	爬蟲與 API 整合：根據新聞來源不同，使用適當的 API 或爬蟲技術來收集數據。
 	•	AI 客服：使用 OpenAI API 或 Google Dialogflow 來提供 AI 互動功能。
 	•	身份驗證：使用 OAuth 或 JWT 實現 Google/Facebook 登入。
